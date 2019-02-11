@@ -40,7 +40,7 @@ We could possibly leaverage this to use IE's COM object to do C2 ala [WSC2](http
 
 ### Python Standard Library
 
-We technically could load/use IronPython's stdlib instead of calling .NET APIs but this would require writing some "magic" dependency resolving code. 
+We technically could load/use IronPython's stdlib instead of calling .NET APIs, but this would require writing some "magic" dependency resolving code. 
 
 Possibly could modify [httpimports](https://github.com/operatorequals/httpimport) to do this automagically.
 
@@ -50,7 +50,7 @@ https://www.codeproject.com/Articles/607352/Injecting-Net-Assemblies-Into-Unmana
 
 ### RPC
 
-We might want to implement a fully fledged RPC that proxies objects between C# and Python. This could be interesting...
+We might want to implement a fully fledged RPC that proxies objects between C# and Python. This could be interesting:
 
 - https://pythonhosted.org/Pyro4/pyrolite.html
 
@@ -58,7 +58,7 @@ We might want to implement a fully fledged RPC that proxies objects between C# a
 
 ### Development Environment
 
-You can refer to the [Wiki](https://github.com/byt3bl33d3r/SILENTTRINITY/wiki/Setting-up-your-development-environment) If you need some help setting up your environment.
+You can refer to the [Wiki](https://github.com/byt3bl33d3r/SILENTTRINITY/wiki/Setting-up-your-development-environment) if you need some help setting up your environment.
 
 ### Reporting issues
 
